@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juninho Dorsainville - Lead Architect & Software Engineer. Founder of ShiDs Data Secure.">
+    <title>Juninho Dorsainville | Lead Architect</title>
+    
+    <style>
+        :root {
+            --bg-color: #010409;
+            --card-bg: #0d1117;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --accent-blue: #58a6ff;
+            --accent-gold: #d29922;
+            --border-color: #30363d;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .architect-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 2.5rem;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 1.5rem;
+            border-radius: 50%;
+            border: 2px solid var(--accent-blue);
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.2rem;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+
+        .bio {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: opacity 0.2s;
+        }
+
+        .contact-link:hover { opacity: 0.8; }
+
+        .status-tag {
+            margin-top: 2rem;
+            display: inline-block;
+            padding: 0.4rem 1rem;
+            background-color: rgba(210, 153, 34, 0.05);
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        footer {
+            margin-top: 2.5rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="architect-card">
+        <img src="1000118232.jpg" alt="ShiDs Logo" class="logo">
+
+        <header>
+            <h1>Juninho Dorsainville</h1>
+            <p class="subtitle">Lead Architect & Engineer</p>
+        </header>
+
+        <section>
+            <p class="bio">
+                I build things for the long term. As the founder of <strong>ShiDs Data Secure</strong>, I focus on creating resilient decentralized architectures and keeping sensitive data where it belongs—secure.
+            </p>
+            
+            <a href="mailto:shidsdatasecure@gmail.com" class="contact-link">
+                shidsdatasecure@gmail.com
+            </a>
+            <br>
+
+            <div class="status-tag">
+                Private Infrastructure — Members Only
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2026 ShiDs Data Secure. All rights reserved.
+        </footer>
+    </main>
+
+</body>
+</html>
